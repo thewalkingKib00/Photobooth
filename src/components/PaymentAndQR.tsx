@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FrameType, PhotoSession } from '../types';
-import { FRAMES } from './FrameSelection';
+import { FRAMES } from '../lib/FrameSelection';
 import { QrCode, Printer, CheckCircle, Download, RefreshCw, Smartphone, Wifi, Share2, Clipboard, Cloud, LogOut } from 'lucide-react';
 import { initAuth, googleSignIn, getAccessToken, uploadToGoogleDrive, extractSpreadsheetId, appendTransactionToSheets } from '../lib/workspace';
 import { User } from 'firebase/auth';

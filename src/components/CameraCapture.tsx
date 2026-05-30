@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FrameType } from '../types';
-import { FRAMES } from './FrameSelection';
+import { FRAMES } from '../lib/FrameSelection';
 import { Camera, Clock, RefreshCw, Sparkles, Smile, Play, Sliders, Check, Trash2, ArrowUp, Zap } from 'lucide-react';
 import gifshot from 'gifshot';
 
