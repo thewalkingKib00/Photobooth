@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FrameType, PhotoSession, Transaction, PaperStock, AppSettings } from './types';
-import FrameSelection, { FRAMES } from './components/FrameSelection';
+import FrameSelection, { FRAMES } from './lib/FrameSelection';
 import CameraCapture from './components/CameraCapture';
 import PrintQuantity from './components/PrintQuantity';
 import PaymentAndQR from './components/PaymentAndQR';
