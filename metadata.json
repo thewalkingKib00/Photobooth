@@ -1,0 +1,6 @@
+{
+  "name": "Self-Service Photobox",
+  "description": "Aplikasi self-service photobox dengan integrasi pembayaran QRIS, kustomisasi edit timer, Bluetooth printer, unduh digital QR instan, dan dashboard admin real-time ke Google Spreadsheet.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
