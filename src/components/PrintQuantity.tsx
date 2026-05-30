@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FrameType } from '../types';
-import { FRAMES } from './FrameSelection';
+import { FRAMES } from '../lib/FrameSelection';
 import { Printer, Minus, Plus, CreditCard, Sparkles, Check } from 'lucide-react';
 
 interface PrintQuantityProps {
